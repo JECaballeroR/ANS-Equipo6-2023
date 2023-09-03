@@ -1,6 +1,6 @@
 # Aprendizaje no supervisado aplicado a la calificación de competencias en maestros.
 ## Introducción
-Este proyecto fue desarrollado por el Equipo 6 de la asignatura de aprendizaje no Supervisado de la Maestría en Inteligencia analítica de datos, en su cohorte 2023
+Este proyecto fue desarrollado por el Equipo 6 de la asignatura de aprendizaje no Supervisado de la Maestría en Inteligencia Analítica de Datos, en su cohorte 2023
 
 El equipo 6 está conformado por:
 * Jorge Caballero,
