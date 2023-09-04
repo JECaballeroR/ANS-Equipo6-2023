@@ -1,4 +1,4 @@
-# Aprendizaje no supervisado aplicado a la calificación de competencias en maestros.
+# Aprendizaje no supervisado aplicado a la calificación de competencias en maestros del sistema educativo colombiano.
 ## Introducción
 Este proyecto fue desarrollado por el Equipo 6 de la asignatura "Aprendizaje no Supervisado" de la Maestría en Inteligencia Analítica de Datos - MIAD, en su cohorte 2023
 
