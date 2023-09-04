@@ -1,17 +1,16 @@
 # Aprendizaje no supervisado aplicado a la calificación de competencias en maestros.
 ## Introducción
-Este proyecto fue desarrollado por el Equipo 6 de la asignatura de aprendizaje no Supervisado de la Maestría en Inteligencia Analítica de Datos, en su cohorte 2023
+Este proyecto fue desarrollado por el Equipo 6 de la asignatura "Aprendizaje no Supervisado" de la Maestría en Inteligencia Analítica de Datos - MIAD, en su cohorte 2023
 
 El equipo 6 está conformado por:
 * Jorge Caballero,
 * Rebeca Gamboa,
 * Javier Abril
-* y Jesus Parada
+* Jesus Parada
 
-El objetivo general del proyecto fue la aplicación de técnicas de aprendizaje no supervisado para el análisis de competencias en docentes. 
+El objetivo principal es identificar grupos desconocidos de docentes basados en sus competencias multidisciplinarias y detectar diferencias en los patrones de competencia que puedan indicar áreas de mejora para los programas de formación. Para lograr esto, emplearemos técnicas de aprendizaje no supervisado, como el clustering y sistemas de recomendación. Utilizaremos un dataset proporcionado por la Fundación Future Education (se modifica el nombre de la organización para mantener la reserva) que incluye las respuestas a estas 20 preguntas, así como información socio-demográfica de un grupo de maestros. Esta encuesta se utiliza para medir el nivel de desempeño en 5 competencias docentes clave, que luego se utilizarán para guiar los procesos de capacitación de los docentes. En última instancia, nuestro objetivo es encontrar nuevos patrones en los datos que permitan una dirección más efectiva de los esfuerzos de formación y evaluar la relevancia del instrumento de medición. La aplicación de modelos de Machine Learning y la inteligencia artificial en este contexto es fundamental para el progreso en el campo de la educación, particularmente en las áreas de evaluación y enseñanza.
 
-El dataset inicial tiene información pertinente a las respuestas a 20 preguntas de un grupo de maestros y su información socio demográfica. Se esperaba que existieran grupos no conocidos de maestros de acuerdo a sus competencias a un nivel multidisciplinar, además de diferencias entre los patrones de los niveles de las competencias que evidenciaran oportunidades de mejora para programas de formación de maestros. Los modelos de Machine Learning y la inteligencia artificial son cada vez más usados en el campo de la educación, en particular en las áreas de evaluación y enseñanza. En el presente trabajo, se usará un dataset de la Fundacion Future Education con información sobre la clasificación de competencias de docentes: tiene respuestas a una encuesta 20 preguntas de un grupo de maestros y su información socio demográfica. Esta encuesta se usa para obtener el nivel de desempeño en 5 competencias para docentes y posteriormente, usar esa información para dirigir procesos formativos de los mismos. Usando metodologías de aprendizaje no supervisado, tales como sistemas de recomendación o Clustering, se espera encontrar nuevos patrones en la información que permitan dirigir de mejor manera los esfuerzos de capacitación para estos docentes, además de evaluar la pertinencia del instrumento de medición.
-[Insertar aquí una descripción de los datos]
+La base de datos contiene 5270 observaciones y 33 variables (incluidas las 20 preguntas) que muestran las respuestas de los docentes, maestros y agentes educativas de las instituciones educativas o centros de desarrollo infantil en todo el territorio colombiano donde hace presencia la Organización. Se reporta información de 2022 y lo corrido del año 2023 para personas mayores de 18 años. 
 
 Algunas de las ideas de valor a generar fueron:
 
@@ -21,7 +20,11 @@ Algunas de las ideas de valor a generar fueron:
 ## Introducción
 La fundación Future Education (se modifica el nombre real de la entidad por confidencialidad) tiene como propósito promover practicas innovadores en la educación colombiana. Uno de los instrumentos que implementa en sus proyectos es una encuesta que busca medir las competencias que tienen maestros/docentes/agentes educativos y que son fundamentales para mejorar la calidad de la educación.
 
-Las Competencias del Siglo XXI es una adaptación del capítulo latinoamericano del proyecto ATC21s por sus siglas en ingles "Assessment and Teaching of 21 st Century Skills" de la Fundación Omar Dengo. Este instrumento consta de 20 preguntas asociadas a 5 competencias:
+Las Competencias del Siglo XXI es una adaptación del capítulo latinoamericano del proyecto ATC21s por sus siglas en ingles "Assessment and Teaching of 21 st Century Skills" de la Fundación Omar Dengo. 
+
+[![](figs/atcs21.png)](https://www.mep.go.cr/evaluacion-competencias-siglo-xxi)
+
+Este instrumento consta de 20 preguntas asociadas a 5 competencias:
 * Creatividad e innovación.
 * Pensamiento crítico.
 * Resolución de problemas.
@@ -68,3 +71,4 @@ A un macro nivel, se espera:
 * Kaufman, L. & Rousseeuw, P. (1990). Finding Groups in Data: An Introduction to Cluster Analysis, Wiley, New York.
 * Macnaughton Smith, P., Williams, W., Dale, M. & Mockett, L. (1965). Dissimilarity analysis: a new technique of hierarchical subdivision, Nature 202: 1034–1035.
 * Pedregosa, F. et al., 2011. Scikit-learn: Machine learning in Python. Journal of machine learning research, 12(Oct), pp.2825–2830.
+* Fabila, Angelica & Minami, Hiroe & Izquierdo, Jesús. (2013). La escala de Likert en la evaluación docente: acercamiento a sus características y principios metodológicos. perspectivas docentes. 52. 
