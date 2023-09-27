@@ -54,6 +54,15 @@ A un macro nivel, se espera:
       1.	Concluir sobre si existe información suficiente en la encuesta para dar resultados, o si por el contrario hay preguntas redundantes en la clasificación 
       1.	Dar conclusiones en relación con las ventajas y desventajas de no dar 5 puntajes sino la pertenencia a un grupo de competencias multidisciplinar.
 
+## Metodología realizada
+
+### Consistencia interna del instrumento / Coeficiente Alfa de Cronbach
+Este coeficientes es comunmente utilizado para evaluar la confiabilidad y la consistencia de investigaciones de cuestionarios o entrevistas. Shavelson (2009 ) indica que dicho coeficiente tiene los siguientes beneficios:
+1.	Provee una medida razonable de confiabilidad en un único test.
+2.	La fórmula general del coeficiente permite su aplicación a cuestionarios de opción multiple de estalas dicotómocas o de variables categóricas politómicas
+3.	Puede ser calculado con principios estadísticos básicos
+
+En términos generales la aplicación del instrumento a la encuesta da como resultados se obtuvo un valor general de Alpha de 0,726 lo que indica una confiabilidad buena. Los ítems de la escala están razonablemente correlacionados y la medida es considerada confiable para su uso en la mayoría de los casos. Sin embargo, las preguntas que miden cada competencia no son consistentes, tienen una baja confiabilidad, lo que implica que no parece ser la mejor manera de agruparlas.
 
 ## Bibliografía
 
@@ -71,4 +80,5 @@ A un macro nivel, se espera:
 * Kaufman, L. & Rousseeuw, P. (1990). Finding Groups in Data: An Introduction to Cluster Analysis, Wiley, New York.
 * Macnaughton Smith, P., Williams, W., Dale, M. & Mockett, L. (1965). Dissimilarity analysis: a new technique of hierarchical subdivision, Nature 202: 1034–1035.
 * Pedregosa, F. et al., 2011. Scikit-learn: Machine learning in Python. Journal of machine learning research, 12(Oct), pp.2825–2830.
-* Fabila, Angelica & Minami, Hiroe & Izquierdo, Jesús. (2013). La escala de Likert en la evaluación docente: acercamiento a sus características y principios metodológicos. perspectivas docentes. 52. 
+* Fabila, Angelica & Minami, Hiroe & Izquierdo, Jesús. (2013). La escala de Likert en la evaluación docente: acercamiento a sus características y principios metodológicos. perspectivas docentes. 52.
+* Shavelson, R.J. Biographical memoirs: Lee J. Cronbach. Washington, DC-USA: American Philosophical Society, v. 147, n. 4. p. 379-385, 2009.
