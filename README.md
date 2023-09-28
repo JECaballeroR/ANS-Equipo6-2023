@@ -54,7 +54,18 @@ A un macro nivel, se espera:
       1.	Concluir sobre si existe información suficiente en la encuesta para dar resultados, o si por el contrario hay preguntas redundantes en la clasificación 
       1.	Dar conclusiones en relación con las ventajas y desventajas de no dar 5 puntajes sino la pertenencia a un grupo de competencias multidisciplinar.
 
+## Aplicación de la metodología y resultados
 
+### Consistencia interna del instrumento / Coeficiente Alfa de Cronbach
+En términos generales la aplicación del instrumento a la encuesta da como resultados se obtuvo un valor general de Alpha de 0,726 lo que indica una confiabilidad buena. Los ítems de la escala están razonablemente correlacionados y la medida es considerada confiable para su uso en la mayoría de los casos. Sin embargo, las preguntas que miden cada competencia no son consistentes, tienen una baja confiabilidad, lo que implica que no parece ser la mejor manera de agruparlas.
+
+### Reducción de dimensionalidad /Análisis de Componentes Principales (PCA)
+Los resultados arrojan que es posible explicar el 80% de la varianza de los datos con utilización de 12 de los 20 componentes analizados. Las preguntas más representativas son las 7, 12, 5, 15, 9, 2, 17, 18, 20, 6, respectivamente. Observando la relación de las preguntas con las competencias, se concluye que las competencias Resolución de conflictos (p5-p8) y Comunicación (p17-p20) aportan  3 de sus 4 preguntas a la explicación del 80% de la varianza. Por otra parte, se puede intuir que Creatividad e Innovación, Pensamiento Crítico y Trabajo Colaborativo no necesariamente están siendo evaluadas correctamente, ya sea porque las personas no contestan esta pregunta o tienden a responder lo mismo. Por tanto, es posible que se deba realizar una diferenciación, eliminación o revisión de las preguntas que no agregan mucha variabilidad a las respuestas del instrumento.
+
+### K Means
+Se realiza clustering con 6 agrupaciones, alobservar el nivel general parece ser que los 6 están bien definidos entre puntajes medios y altos, sin embargo, las competencias de dichos grupos poblacionales muestran características diferentes. Se observan resultados La creatividad y el pensamiento crítico tienden a tener un comportamiento similar, por lo que es posible recomendar una reestructuración o unificación de ambas competencias. También las competencias de comunicación y trabajo colaborativo presentan un comportamientos similares, estás podrían ser agrupadas en un componente denominado habilidades sociales, o se podrían reestructurar las preguntas de trabajo colaborativo ya que solamente una aporta a la explicación del 80% de la varianza. En todos los clusters se encuentran desafíos en la competencia resolución de conflictos, ya que ningún cluster relaciona un puntaje general alto, con un alto nivel de resolución de conflictos.
+
+### DBSCAN
 ## Bibliografía
 
 * Bagunaid, W., Chilamkurti, N., & Veeraraghavan, P. (2022). AISAR: Artificial Intelligence-Based Student Assessment and Recommendation System for E-Learning in Big Data. Sustainability, 14(17), 10551. doi: 10.3390/su141710551
@@ -71,4 +82,5 @@ A un macro nivel, se espera:
 * Kaufman, L. & Rousseeuw, P. (1990). Finding Groups in Data: An Introduction to Cluster Analysis, Wiley, New York.
 * Macnaughton Smith, P., Williams, W., Dale, M. & Mockett, L. (1965). Dissimilarity analysis: a new technique of hierarchical subdivision, Nature 202: 1034–1035.
 * Pedregosa, F. et al., 2011. Scikit-learn: Machine learning in Python. Journal of machine learning research, 12(Oct), pp.2825–2830.
-* Fabila, Angelica & Minami, Hiroe & Izquierdo, Jesús. (2013). La escala de Likert en la evaluación docente: acercamiento a sus características y principios metodológicos. perspectivas docentes. 52. 
+* Fabila, Angelica & Minami, Hiroe & Izquierdo, Jesús. (2013). La escala de Likert en la evaluación docente: acercamiento a sus características y principios metodológicos. perspectivas docentes. 52.
+* Shavelson, R.J. Biographical memoirs: Lee J. Cronbach. Washington, DC-USA: American Philosophical Society, v. 147, n. 4. p. 379-385, 2009.
